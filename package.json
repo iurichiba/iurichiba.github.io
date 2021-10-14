@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pre-deploy": "npm run build",
+    "pre-deploy": "npm run build && cp .host/CNAME build/CNAME",
     "deploy": "gh-pages -d build -m \"Auto-generated commit\""
   },
   "eslintConfig": {
