@@ -1,0 +1,12 @@
+html, body, #root {
+	height: 100%;
+}
+
+html {
+	background-color: #000;
+}
+
+body {
+	font-family: 'Barlow', sans-serif;
+	margin: 0;
+}

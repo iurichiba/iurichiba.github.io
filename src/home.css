@@ -1,0 +1,12 @@
+.home {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 25vw;
+  pointer-events: none;
+}
