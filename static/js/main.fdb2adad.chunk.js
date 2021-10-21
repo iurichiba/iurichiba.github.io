@@ -1,2 +1,0 @@
-(this["webpackJsonpss-ghp"]=this["webpackJsonpss-ghp"]||[]).push([[0],{10:function(e,s,c){"use strict";c.r(s);var t=c(1),n=c.n(t),o=c(3),i=c.n(o),r=c.p+"static/media/logo.0ec88cf4.svg",a=(c(8),c(0));var d=function(){return Object(a.jsx)("div",{className:"home",children:Object(a.jsx)("img",{src:r,className:"logo"})})},h=Object(a.jsx)(n.a.StrictMode,{children:Object(a.jsx)(d,{})});i.a.render(h,document.getElementById("root"))},8:function(e,s,c){}},[[10,1,2]]]);
-//# sourceMappingURL=main.fdb2adad.chunk.js.map
