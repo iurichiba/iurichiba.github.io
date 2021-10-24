@@ -15,6 +15,7 @@ const SSButton = styled.button`
   &:hover {
     font-weight: bold;
     border: solid 2px white;
+    background-color: #ffffff16;
     animation: ${anaglyph_frames} 1s ease-in;
     > svg {
       stroke-width: 3px;
