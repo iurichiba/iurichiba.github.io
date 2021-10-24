@@ -12,7 +12,6 @@
 .logo {
   width: 232px;
   max-width: 80vw;
-  pointer-events: none;
 }
 
 .description {
