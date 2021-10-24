@@ -7,7 +7,7 @@ import "./home.css";
 
 // MARK: -- Constants
 const kCVAddress =
-  "https://github.com/iurichiba/iurichiba.github.io/raw/gh-pages/iurichiba-cv2021.pdf";
+  "https://github.com/iurichiba/iurichiba.github.io/raw/gh-pages/cv2021.pdf";
 const kEmailAddress = "mailto:iuri.chiba@shoryuken.solutions";
 
 // MARK: -- ⚛️ Main Component
