@@ -7,12 +7,12 @@ export const anaglyph = keyframes`
   }
 
   10% {
-    filter: drop-shadow(-2px -2px 1px red) drop-shadow(2px 2px 1px cyan);
+    filter: drop-shadow(-3px -3px 1px red) drop-shadow(3px 3px 1px cyan);
     color: red;
   }
 
   20% {
-    filter: drop-shadow(-2px 2px 1px red) drop-shadow(2px -2px 1px cyan);
+    filter: drop-shadow(-3px 3px 1px red) drop-shadow(3px -3px 1px cyan);
     color: cyan;
   }
 `
