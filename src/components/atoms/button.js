@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { anaglyph as anaglyph_frames } from "../../styles/animations";
+import { anaglyph as anaglyphEffect } from "../../styles/animations";
 
 const SSButton = styled.button`
   position: relative;
@@ -14,7 +14,7 @@ const SSButton = styled.button`
   padding: 12px 16px;
 
   &:hover {
-    animation: ${anaglyph_frames} 1s ease-in;
+    animation: ${anaglyphEffect(3)} 1.33s ease-in;
 
     &::after {
       content: "";

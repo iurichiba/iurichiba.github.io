@@ -1,18 +1,20 @@
-import { keyframes } from '@emotion/react'
+import { keyframes } from "@emotion/react";
 
-export const anaglyph = keyframes`
-  from, 5%, 15%, 25%, to {
-    filter: none;
-    color: white;
-  }
+export const anaglyph = (distance = 8) => {
+  return keyframes`
+    from, 3%, 9%, 15%, to {
+      filter: none;
+      color: white;
+    }
 
-  10% {
-    filter: drop-shadow(-3px -3px 1px red) drop-shadow(3px 3px 1px cyan);
-    color: red;
-  }
+    6% {
+      filter: drop-shadow(-${distance}px -${distance}px 1px red) drop-shadow(${distance}px ${distance}px 1px cyan);
+      color: red;
+    }
 
-  20% {
-    filter: drop-shadow(-3px 3px 1px red) drop-shadow(3px -3px 1px cyan);
-    color: cyan;
-  }
-`
+    12% {
+      filter: drop-shadow(-${distance}px ${distance}px 1px red) drop-shadow(${distance}px -${distance}px 1px cyan);
+      color: cyan;
+    }
+  `;
+};

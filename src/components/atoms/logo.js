@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 import logo from "../../logo.svg";
-import { anaglyph as anaglyph_frames } from "../../styles/animations";
+import { anaglyph as anaglyphEffect } from "../../styles/animations";
 
 const AnimatedImage = styled.img`
-	animation: ${anaglyph_frames} 1s ease-in 1.33s infinite reverse;
+	animation: ${anaglyphEffect(3)} 1.33s ease-in 3.33s infinite alternate;
 `;
 
 const Logo = (props) => {
